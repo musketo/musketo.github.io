@@ -3,9 +3,9 @@ layout: post
 title: "First Test"
 excerpt_separator: "<!--more-->"
 categories:
-  - Post Formats
+  - Edge Case
 tags:
-  - Post Formats
+  - TESTESTSETSETSET
   - readability
   - standard
 ---
