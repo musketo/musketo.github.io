@@ -1,0 +1,26 @@
+---
+layout: post
+title: "EIGRP"
+excerpt_separator: "<!--more-->"
+categories:
+  - Network
+tags:
+  - Network
+  - Theory
+  - Packet Tracer
+---
+EIGRP Enhanced Interior Gateway Routing Protocol
+
+- 시스코에서 만듬. 시스코장비만 사용 가능
+- RIP와 같은 거리벡터 라우팅 프로토콜
+- 와일드 마스크 사용
+- DUAL 알고리즘 사용. S와 FS 선출.
+- AS 사용, (BGP의 AS와 다른 개념) : 하나의 도메인이라고 생각하면됨, AS가 다르면 다른 프로토콜로 인식
+
+== 동작 방식 ==
+1. Hello Packet
+Neighbor 관계 구성/유지 패킷. (네이버조건: 동일 AS. metric k 일치)
+2. Update Packet 
+라우팅 정보 전달 
+3. ACK 및 Update Packet 전송
+4. ACK
